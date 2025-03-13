@@ -1,15 +1,14 @@
-# main.py
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from chatbot import initialize_tools, initialize_bot, process_input
-import os 
+import os
 from dotenv import load_dotenv
-
 
 # Initialize FastAPI app
 app = FastAPI()
 
 load_dotenv()
+
 # Initialize chatbot tools and agent
 tools = initialize_tools()
 agent_executor = initialize_bot(tools, os.getenv("GROQ_API_KEY"))
