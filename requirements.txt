@@ -1,0 +1,58 @@
+# Core dependencies
+fastapi
+uvicorn
+
+# Chatbot dependencies
+langchain
+langchain-groq
+langchain-openai
+langchain-community
+transformers
+python-dotenv
+
+# Telegram integration
+python-telegram-bot
+httpx
+
+# WhatsApp integration (Twilio)
+twilio
+
+# Additional utilities
+pydantic
+
+#---------------
+
+###For RAG
+ipykernel
+pypdf
+bs4
+pymupdf
+wikipedia
+langchain-text-splitters
+langchain-openai
+chromadb
+sentence_transformers
+langchain_huggingface
+faiss-cpu
+langchain_chroma
+duckdb
+pandas
+openai
+langchain-groq
+duckduckgo-search
+pymupdf
+wikipedia
+mysql-connector-python
+SQLAlchemy
+validators==0.28.1
+youtube_transcript_api
+unstructured
+pytube
+numexpr
+huggingface_hub
+langchain-ollama
+duckduckgo-search
+google-search-results
+langdetect
+python-dotenv
+pyrebase4
